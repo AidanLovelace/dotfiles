@@ -23,6 +23,7 @@ curl https://raw.githubusercontent.com/AidanLovelace/dotfiles/master/.setup-dotf
 
 ### GDB
 `brew install gdb`
+
 `apt-get install gdb`
 
 ### VSCode
