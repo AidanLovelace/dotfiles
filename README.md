@@ -27,6 +27,6 @@ curl https://raw.githubusercontent.com/AidanLovelace/dotfiles/master/.setup-dotf
 `apt-get install gdb`
 
 ### VSCode
-[https://code.visualstudio.com](Visual Studio Code)
+(https://code.visualstudio.com)[Visual Studio Code]
 
 ### Theos - New Instance Creator
