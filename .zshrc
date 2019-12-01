@@ -14,11 +14,7 @@ function chpwd() {
 }
 
 # Path Environment Variables
-export DOCS=$HOME/Documents
-export DOWN=$HOME/Downloads
-export DESK=$HOME/Desktop
-export APPS=/Applications
-export PROJECTS=/Volumes/Nexus/Projects
+export PROJECTS=$HOME/Projects
 
 # Command Aliases
 alias cls=clear
@@ -30,12 +26,8 @@ alias sv="sudo vim"
 alias config='/usr/bin/git --git-dir=/Users/aidan/.cfg/ --work-tree=/Users/aidan'
 
 # Path Aliases
-alias docs="cd $DOCS"
-alias downs="cd $DOWN"
-alias desk="cd $DESK"
 alias proj="cd $PROJECTS"
 # Environment Variables
 export EDITOR=vim
 export PATH=$PATH:~/.bin
-export PATH="/usr/local/opt/node@10/bin:$PATH"
 export THEOS=/opt/theos
