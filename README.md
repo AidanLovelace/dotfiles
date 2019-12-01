@@ -8,3 +8,24 @@ chsh -s $(which zsh)
 ```bash
 curl https://raw.githubusercontent.com/AidanLovelace/dotfiles/master/.setup-dotfiles.sh | bash
 ```
+
+## Programs Configured
+
+### Git
+`brew install git`
+
+`apt-get install git`
+
+### Vim
+`brew install vim`
+
+`apt-get install vim`
+
+### GDB
+`brew install gdb`
+`apt-get install gdb`
+
+### VSCode
+[https://code.visualstudio.com](Visual Studio Code)
+
+### Theos - New Instance Creator
