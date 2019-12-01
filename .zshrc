@@ -27,7 +27,7 @@ alias lz="ls -la"
 alias ll="ls -l"
 alias v=vim
 alias sv="sudo vim"
-alias config='/usr/bin/git --git-dir=/Users/aidan/.cfg/ --work-tree=/Users/aidan'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Path Aliases
 alias docs="cd $DOCS"
