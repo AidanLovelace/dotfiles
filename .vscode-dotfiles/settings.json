@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "*.xm": "objective-cpp",
+        "*.h": "objective-cpp"
+    },
+    "emmet.includeLanguages": {
+        "wxml": "html"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Solarized Dark"
+}
