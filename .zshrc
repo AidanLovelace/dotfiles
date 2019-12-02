@@ -39,3 +39,7 @@ export EDITOR=vim
 export PATH=$PATH:~/.bin
 export PATH="/usr/local/opt/node@10/bin:$PATH"
 export THEOS=/opt/theos
+
+# iOS Terminal Fixed
+unsetopt PROMPT_SP
+DISABLE_AUTO_TITLE="true"
