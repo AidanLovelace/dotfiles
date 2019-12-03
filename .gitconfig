@@ -2,3 +2,5 @@
 [user]
 	name = Aidan Lovelace
 	email = aidan@aidanlovelace.com
+[http]
+	sslCAInfo = /etc/ssl/certs/cacert.pem
