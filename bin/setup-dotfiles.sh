@@ -2,7 +2,7 @@
 
 dotfiles_dir="$HOME/dotfiles"
 # Clone and setup dotfiles
-git clone git@github.com:AidanLovelace/dotfiles.git $dotfiles_dir
+git clone https://github.com/AidanLovelace/dotfiles.git $dotfiles_dir
 cd $dotfiles_dir
 git checkout
 git submodule update --init --recursive
