@@ -9,16 +9,13 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Functions
-function chpwd() {
-  ls
-}
+mkcd() { mkdir -p "$@" && cd "$@"; }
 
 # Path Environment Variables
 export DOCS=$HOME/Documents
 export DOWN=$HOME/Downloads
 export DESK=$HOME/Desktop
 export APPS=/Applications
-export PROJECTS=/Volumes/Nexus/Projects
 
 # Command Aliases
 alias cls=clear
@@ -33,13 +30,6 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias docs="cd $DOCS"
 alias downs="cd $DOWN"
 alias desk="cd $DESK"
-alias proj="cd $PROJECTS"
 # Environment Variables
 export EDITOR=vim
 export PATH=$PATH:~/.bin
-export PATH="/usr/local/opt/node@10/bin:$PATH"
-export THEOS=/opt/theos
-
-# iOS Terminal Fixed
-unsetopt PROMPT_SP
-DISABLE_AUTO_TITLE="true"

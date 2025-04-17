@@ -1,0 +1,43 @@
+{
+    "editor.wordWrap": "on",
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "python.pythonPath": "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+    "python.formatting.provider": "black",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "dart.previewLsp": true,
+    "dart.openDevTools": "flutter",
+    "editor.fontSize": 16,
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.lineNumbers": "on",
+    "workbench.colorTheme": "Default Light+",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "platformio-ide.autoOpenPlatformIOIniFile": false,
+    "auto-build.defaultEnv.name": "mega2560",
+    "auto-build.build.reveal": false,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "python.createEnvironment.trigger": "off",
+    "workbench.editor.empty.hint": "hidden",
+    "terminal.integrated.commandsToSkipShell": [
+        "matlab.interrupt"
+    ],
+    "MATLAB.installPath": "/Applications/MATLAB_R2024b.app"
+}
