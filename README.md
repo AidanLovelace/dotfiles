@@ -6,7 +6,7 @@ chsh -s $(which zsh)
 ```
 ## Install
 ```bash
-curl https://raw.githubusercontent.com/AidanLovelace/dotfiles/master/.setup-dotfiles.sh | bash
+curl https://raw.githubusercontent.com/AidanLovelace/dotfiles/refs/heads/master/bin/setup-dotfiles.sh | bash
 ```
 
 ## Programs Configured
