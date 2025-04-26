@@ -8,3 +8,8 @@
 	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMRAVBZ0lzEES4JRQiirJ8MbfAz5EU4cm1SSsu67F23I
 	name = Aidan Lovelace
 	email = me@aidanlovelace.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

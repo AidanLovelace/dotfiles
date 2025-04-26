@@ -11,6 +11,33 @@ source $ZSH/oh-my-zsh.sh
 # Functions
 mkcd() { mkdir -p "$@" && cd "$@"; }
 
+convdoc() {
+  infilename=$(basename -- "$1")
+  inextension="${infilename##*.}"
+  if [ $inextension = "md" ]; then
+    inextension="markdown"
+  fi
+  extrainextensions=""
+  extraoutextensions=""
+  if [ $inextension="markdown" ] && [ $outextension="docx" ]; then
+    extrainextensions+="+tex_math_dollars"
+    extrainextensions+="+tex_math_single_backslash"
+    extrainextensions+="+tex_math_double_backslash"
+    extrainextensions+="+short_subsuperscripts"
+    extrainextensions+="+mmd_title_block"
+    extrainextensions+="+emoji"
+    extrainextensions+="+angle_brackets_escapable"
+    extrainextensions+="+lists_without_preceding_blankline"
+  fi
+  
+  outfilename=$(basename -- "$2")
+  outextension="${outfilename##*.}"
+  
+  shift 2
+  
+  pandoc -o $outfilename -f "${inextension}${extrainextensions}" -t "${outextension}${extraoutextensions}" $infilename $@ --no-highlight
+}
+
 # Path Environment Variables
 export DOCS=$HOME/Documents
 export DOWN=$HOME/Downloads

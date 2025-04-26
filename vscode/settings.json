@@ -25,10 +25,10 @@
     },
     "dart.previewLsp": true,
     "dart.openDevTools": "flutter",
-    "editor.fontSize": 16,
+    "editor.fontSize": 17,
     "security.workspace.trust.untrustedFiles": "open",
     "notebook.lineNumbers": "on",
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Tokyo Night",
     "python.defaultInterpreterPath": "/usr/bin/python3",
     "platformio-ide.autoOpenPlatformIOIniFile": false,
     "auto-build.defaultEnv.name": "mega2560",
@@ -39,5 +39,17 @@
     "terminal.integrated.commandsToSkipShell": [
         "matlab.interrupt"
     ],
-    "MATLAB.installPath": "/Applications/MATLAB_R2024b.app"
+    "MATLAB.installPath": "/Applications/MATLAB_R2024b.app",
+    "[matlab]": {
+        "editor.defaultFormatter": "MathWorks.language-matlab"
+    },
+    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontWeight": "400",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+    "editor.cursorBlinking": "smooth",
+    "editor.renderWhitespace": "selection",
 }
