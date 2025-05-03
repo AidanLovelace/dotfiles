@@ -1,14 +1,9 @@
 affenwiesel.matlab-formatter
-almenon.arepl
 christian-kohler.npm-intellisense
 docker.docker
-eamodio.gitlens
 enkia.tokyo-night
 frhtylcn.pythonsnippets
-github.copilot
-github.copilot-chat
 jackmacwindows.vscode-computercraft
-marlinfirmware.auto-build
 mathworks.language-matlab
 mikestead.dotenv
 ms-azuretools.vscode-docker
@@ -29,9 +24,10 @@ ms-vscode.cpptools
 ms-vscode.remote-explorer
 natizyskunk.sftp
 platformio.platformio-ide
-rubberduck.rubberduck-vscode
+qwtel.sqlite-viewer
 sourcegraph.cody-ai
 sumneko.lua
+svelte.svelte-vscode
 visualstudioexptteam.intellicode-api-usage-examples
 visualstudioexptteam.vscodeintellicode
 vscode-icons-team.vscode-icons
